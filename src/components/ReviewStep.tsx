@@ -52,14 +52,7 @@ export default function ReviewStep({
         ))}
       </div>
 
-      <div className="mt-8 flex flex-col-reverse sm:flex-row justify-between gap-3"><div className="mt-6 flex justify-center">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/b4M46Zvbwek"
-            allowFullScreen
-          ></iframe>
-        </div>
+      <div className="mt-8 flex flex-col-reverse sm:flex-row justify-between gap-3">
         <button
           type="button"
           onClick={onBack}
