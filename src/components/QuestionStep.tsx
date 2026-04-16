@@ -10,7 +10,14 @@ type Props = {
   onNext: () => void;
   onBack: () => void;
 };
-
+<div className="mt-6 flex justify-center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/b4M46Zvbwek"
+            allowFullScreen
+          ></iframe>
+        </div>
 export default function QuestionStep({
   questionIndex,
   totalQuestions,
