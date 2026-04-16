@@ -66,7 +66,16 @@ export default function QuestionStep({
         <h2 className="text-lg sm:text-xl font-semibold text-slate-800 leading-relaxed">
           {questionText}
         </h2>
-      </div>
+      </div>   {questionIndex === 0 && (
+          <div className="flex justify-center my-4">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/b4M46Zvbwek"
+              allowFullScreen
+            ></iframe>
+          </div>
+        )}
 
       <div className="relative">
         <textarea
